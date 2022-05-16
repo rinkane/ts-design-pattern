@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var banner_1 = require("./banner");
+var one_liner_1 = require("./one-liner");
+var printer1 = new one_liner_1.OneLiner("One");
+var printer2 = new banner_1.Banner("I was the one.");
+var printer3 = new banner_1.Banner("Take me to the hospital");
+printer1.print();
+printer2.print();
+printer3.print();
